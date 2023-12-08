@@ -4,38 +4,50 @@ body, html {
     padding: 0;
     box-sizing: border-box;
     height: 100%;
-    background-color: #202020;
+    background-color: #15452a;
     color: #fff;
+    background-image: url('dark.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 30em 30em;
   }
   .container {
     max-width: 100%;
-    margin: auto;
-    padding: 20px;
+    padding: 10px;
+  }
+  #main {
+    position: relative;
+    top: 30%;
+    -ms-transform: translateY(-30%);
+    transform: translateY(-30%);
   }
   header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5em;
   }
   .nav-buttons {
     list-style-type: none;
     padding: 0;
+    text-align: center;
+    list-style: inside;
   }
   .nav-buttons li {
     display: inline;
-    margin-right: 10px;
+    margin: 1%;
   }
   button {
     cursor: pointer;
-    padding: 1em 2em;
+    padding: 0.75em 10%;
     border: none;
     border-radius: 5em;
-    background-color: rgb(188, 47, 188);
-    color: white;
+    background-color: #beb9a6;
+    color: #000;
   }
   button:hover {
-    background-color: rgb(210, 73, 210);
+    background-color: #aba799;
   }
   .note-page {
     text-align: center;
@@ -47,18 +59,29 @@ body, html {
     margin: 20px 0;
     max-width: 100%;
     overflow: auto;
+    background-color: #00000049;
   }
   p {
     margin: 0;
   }
-  @media (max-width: 768px) {
-    header h1 {
-      font-size: 1.5em;
-    }
-    .note-text {
-      padding: 10px;
-    }
+  header h1 {
+    font-size: 2em;
+  }
+  .note-text {
+    padding: 10px;
+  }
+  #light-mode-toggle {
+    padding: 0.75em 1.5em;
+  }
+  @media (max-width: 574px) {
     button {
-      padding: 5px 10px;
+      padding:0.75em 10%;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-bottom: 2%;
+    }
+    .nav-buttons li {
+      display: inline;
+      margin: 1%;
     }
   }

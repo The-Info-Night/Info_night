@@ -26,6 +26,7 @@ body, html {
     transform: translateY(-30%);
   }
   header {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,7 +81,7 @@ body, html {
     padding: 0.75rem 1.5rem;
   }
   footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     display: flex;
     width: 100%;
@@ -105,6 +106,22 @@ body, html {
   }
   a {
     text-decoration: none;
+  }
+  .person {
+    flex: none;
+    border: none;
+    margin: 20px 0;
+    max-width: 100%;
+    overflow: auto;
+    color: #fff;
+    text-align: center;
+  }
+  .person p {
+    display: inline-block;
+    background-color: #0000007e;
+  }
+  .person img {
+    max-width: 5rem;
   }
   .insta {
     float: right;

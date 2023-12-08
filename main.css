@@ -32,6 +32,11 @@ header {
   display: inline;
   margin: 1%;
 }
+#btn-one, #btn-two, #btn-three {
+  width: 30em;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5%;
+}
 .note-page {
     text-align: center;
     padding: 20px;

@@ -1,0 +1,64 @@
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #202020;
+    color: #fff;
+  }
+  .container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .nav-buttons {
+    list-style-type: none;
+    padding: 0;
+  }
+  .nav-buttons li {
+    display: inline;
+    margin-right: 10px;
+  }
+  button {
+    cursor: pointer;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5em;
+    background-color: rgb(188, 47, 188);
+    color: white;
+  }
+  button:hover {
+    background-color: rgb(210, 73, 210);
+  }
+  .note-page {
+    text-align: center;
+    padding: 20px;
+  }
+  .note-text {
+    border: none;
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 100%;
+    overflow: auto;
+  }
+  p {
+    margin: 0;
+  }
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.5em;
+    }
+    .note-text {
+      padding: 10px;
+    }
+    button {
+      padding: 5px 10px;
+    }
+  }

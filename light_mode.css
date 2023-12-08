@@ -43,10 +43,10 @@ body, html {
     border: none;
     border-radius: 5em;
     background-color: #4CAF50;
-    color: white;
+    color: #000000;
   }
   button:hover {
-    background-color: #4caf4fc1;
+    background-color: #4caf4fe8;
   }
   .note-page {
     text-align: center;
@@ -58,7 +58,8 @@ body, html {
     margin: 20px 0;
     max-width: 100%;
     overflow: auto;
-    background-color: #4CAF50;
+    background-color: #00000049;
+    color: #fff;
   }
   p {
     margin: 0;

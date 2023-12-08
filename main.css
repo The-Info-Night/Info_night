@@ -6,12 +6,16 @@
 .title {
   font-size: 3rem;
   padding: 0px;
+  margin-right: 20em;
 }
 #main {
   position: relative;
   top: 30%;
   -ms-transform: translateY(-30%);
   transform: translateY(-30%);
+}
+#airbus-pdf {
+  padding: 0.75rem 1.5rem;
 }
 header {
   position: relative;

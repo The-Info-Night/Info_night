@@ -43,6 +43,7 @@ header {
   margin: 10px 0;
   max-width: 100%;
   overflow: auto;
+  color:#fff;
   background-color: #00000049;
 }
 p {
@@ -81,23 +82,24 @@ a {
   text-decoration: none;
   color: #fff;
 }
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
 .linkedin {
-  display: block;
+  float: right;
   max-width: 2rem;
   margin-left: auto;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 .insta {
   float: right;
   max-width: 2.1rem;
   margin-top: -1px;
-}
-footer {
-  position: sticky;
-  bottom: 0;
-  display: flex;
-  width: 100%;
-  height: 2.5rem;
+  margin-left: auto;
+  margin-right: 0.5rem;
 }
 @media (max-width: 574px) {
   button {

@@ -25,3 +25,6 @@ button:hover {
 #dark-mode-toggle {
   padding: 0.75rem 1.5rem;
 }
+.title {
+  color: #000000;
+}

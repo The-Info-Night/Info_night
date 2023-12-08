@@ -103,6 +103,9 @@ body, html {
     color: #fff;
     text-align: center;
   }
+  a {
+    text-decoration: none;
+  }
   .insta {
     float: right;
     max-width: 2.1rem;

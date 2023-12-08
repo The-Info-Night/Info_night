@@ -13,7 +13,17 @@ const ecologyTips = [
   'Tip 7: Reduce car emissions by carpooling, biking, or using public transportation.',
   'Tip 8: Promote biodiversity by planting native species in your garden.',
   'Tip 9: Engage in responsible recycling by properly sorting your waste.',
-  'Tip 10: Educate yourself and others about environmental issues and sustainability practices.'
+  'Tip 10: Educate yourself and others about environmental issues and sustainability practices.',
+  'Tip 11: Save electricity by using natural light whenever possible and turning off lights when they are not needed.',
+  'Tip 12: Minimize chemical use in your garden and household cleaning to protect local waterways.',
+  'Tip 13: Participate in or organize a community cleanup day to remove trash from local parks and waterways.',
+  'Tip 14: Opt for eco-friendly transportation options like electric vehicles or hybrid cars.',
+  'Tip 15: Encourage local leaders to invest in green infrastructure and public spaces.',
+  'Tip 16: Reduce paper waste by opting for digital receipts and bills where possible.',
+  'Tip 17: Use rainwater harvesting systems to collect rainwater for garden irrigation.',
+  'Tip 18: Plant a tree every year – trees absorb carbon dioxide and provide oxygen.',
+  'Tip 19: Support businesses and products that have sustainable practices and ethical sourcing.',
+  'Tip 20: Take shorter showers and install water-saving showerheads to conserve water.'
 ];
 
 let currentTipIndex = 0;
